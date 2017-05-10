@@ -1,5 +1,0 @@
-%%Test Prewit
-rgbLena = imread('lena.png');
-
-grayLena = rgb2gray(rgbLena);
-
