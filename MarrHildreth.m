@@ -8,7 +8,7 @@ function [Edge] = MarrHildreth(Image,threshold)
 %%4. Thresholding
 Image = double(Image);
 % H = fspecial('log',5,1.5);
-H = TwoDLoG(1.5,5);
+H = TwoDLoG(2,5);
 I = imfilter(Image,H,'conv','symmetric');
 [m,n] = size(I);
 slope = zeros(size(I));

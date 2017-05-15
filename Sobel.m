@@ -1,5 +1,5 @@
 function [Edge] = Sobel(Image,threshold)
-%%Prewit edge detector
+%%Sobel edge detector
 %%0. Smooth the Image
 %%1. Compute X and Y derivatives
 %%2. Find gradient magnitude
